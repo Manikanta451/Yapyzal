@@ -29,8 +29,8 @@ public class DataInt implements Serializable {
 					public String fbpswd="";
 					public String paymentgateway ="";
 					public String Loginid ="";
+				
 					public String Key="";
-
 
 
 					
