@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YP_Automation" verbose="3" parallel="false">
+
+
+	<test name="YP_Automation" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.yp.testscripts.YapyzalTestSuite">
+				
+			</class>
+		
+		</classes>
+	</test>
+	<listeners>
+       <listener class-name="com.yp.listeners.TestListener"/>
+       <listener class-name="com.yp.listeners.ExtentReporterNG"/>
+  </listeners>
+  
+	
+  
+   <!-- <test name="YP_Automationfirefox" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.yp.testscripts.YapyzalTestSuite">
+				<methods>
+				
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+	<listeners>
+       <listener class-name="com.yp.listeners.TestListener"/>
+       <listener class-name="com.yp.listeners.ExtentReporterNG"/>
+  </listeners>
+  
+  <test name="YP_Automationie" preserve-order="true">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.yp.testscripts.YapyzalTestSuite">
+				<methods>
+				
+				 			
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+   <listeners>
+       <listener class-name="com.yp.listeners.TestListener"/>
+       <listener class-name="com.yp.listeners.ExtentReporterNG"/>
+  </listeners>
+   -->
+  </suite>

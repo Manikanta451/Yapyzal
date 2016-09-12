@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [YP_Automation]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.yp.listeners.TestListener"/>
+  </listeners>
+  <test name="YP_Automation(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.yp.testscripts.YapyzalTestSuite">
+        <methods>
+          <include name="setUp"/>
+          <include name="Deal" invocation-numbers="0"/>
+          <include name="fbdeal" invocation-numbers="0"/>
+          <include name="fbdonate" invocation-numbers="0"/>
+          <include name="DonateStatic" invocation-numbers="0"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="DonateDynamic" invocation-numbers="0"/>
+          <include name="fblogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.yp.testscripts.YapyzalTestSuite -->
+    </classes>
+  </test> <!-- YP_Automation(failed) -->
+</suite> <!-- Failed suite [YP_Automation] -->

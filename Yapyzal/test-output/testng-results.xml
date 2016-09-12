@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="YP_Automation" duration-ms="46059" started-at="2016-08-23T11:25:26Z" finished-at="2016-08-23T11:26:13Z">
+    <groups>
+    </groups>
+    <test name="YP_Automation" duration-ms="46059" started-at="2016-08-23T11:25:26Z" finished-at="2016-08-23T11:26:13Z">
+      <class name="com.yp.testscripts.YapyzalTestSuite">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.yp.testscripts.YapyzalTestSuite@fa4c865]" name="setUp" is-config="true" duration-ms="20155" started-at="2016-08-23T16:55:26Z" finished-at="2016-08-23T16:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login(com.yp.datainitialization.DataInt)[pri:0, instance:com.yp.testscripts.YapyzalTestSuite@fa4c865]" name="Login" duration-ms="19521" started-at="2016-08-23T16:55:48Z" description="Login" data-provider="getLogin" finished-at="2016-08-23T16:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.yp.datainitialization.DataInt@5bc9ba1d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yp.testscripts.YapyzalTestSuite@fa4c865]" name="tearDown" is-config="true" duration-ms="4932" started-at="2016-08-23T16:56:08Z" finished-at="2016-08-23T16:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yp.testscripts.YapyzalTestSuite -->
+    </test> <!-- YP_Automation -->
+  </suite> <!-- YP_Automation -->
+</testng-results>

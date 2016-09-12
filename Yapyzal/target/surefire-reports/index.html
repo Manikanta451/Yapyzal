@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-YP_Automation">
+              <span class="suite-name border-failed">YP_Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-YP_Automation">
+                    <span>E:\Yapyzal\YPTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-YP_Automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-YP_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-YP_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-YP_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-YP_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-YP_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 7 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-YP_Automation" class="hide-methods failed suite-YP_Automation"> (hide)</a> <!-- hide-methods failed suite-YP_Automation -->
+                      <a href="#" panel-name="suite-YP_Automation" class="show-methods failed suite-YP_Automation"> (show)</a> <!-- show-methods failed suite-YP_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-YP_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="Deal(com.yp.datainitialization.DataInt@35f26e72)">Deal(com.yp.datainitialization.DataInt@35f26e72)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="DonateDynamic(com.yp.datainitialization.DataInt@67304a40)">DonateDynamic(com.yp.datainitialization.DataInt@67304a40)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="DonateStatic(com.yp.datainitialization.DataInt@6fe1b4fb)">DonateStatic(com.yp.datainitialization.DataInt@6fe1b4fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="Login(com.yp.datainitialization.DataInt@1c32386d)">Login(com.yp.datainitialization.DataInt@1c32386d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="fbdeal(com.yp.datainitialization.DataInt@13d73fa)">fbdeal(com.yp.datainitialization.DataInt@13d73fa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="fbdonate(com.yp.datainitialization.DataInt@5d5f10b2)">fbdonate(com.yp.datainitialization.DataInt@5d5f10b2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-YP_Automation" title="com.yp.testscripts.YapyzalTestSuite" hash-for-method="fblogin(com.yp.datainitialization.DataInt@1e0f9063)">fblogin(com.yp.datainitialization.DataInt@1e0f9063)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-YP_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-YP_Automation" class="panel YP_Automation">
+          <div class="suite-YP_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.yp.testscripts.YapyzalTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deal(com.yp.datainitialization.DataInt@35f26e72)">
+                  </a> <!-- Deal(com.yp.datainitialization.DataInt@35f26e72) -->
+                  <span class="method-name">Deal</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@35f26e72)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=/html/body/div[6]/div/div/ul/li}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.CreateaNewDeal.FBPOST(CreateaNewDeal.java:232)
+	at com.yp.testscripts.YapyzalTestSuite.Deal(YapyzalTestSuite.java:45)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Deal)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DonateDynamic(com.yp.datainitialization.DataInt@67304a40)">
+                  </a> <!-- DonateDynamic(com.yp.datainitialization.DataInt@67304a40) -->
+                  <span class="method-name">DonateDynamic</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@67304a40)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=//div[6]/div/div/ul/li}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.RequestDynamicDonation.requesttodonatedynamic(RequestDynamicDonation.java:141)
+	at com.yp.testscripts.YapyzalTestSuite.DonateDynamic(YapyzalTestSuite.java:54)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Donatedynamic)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DonateStatic(com.yp.datainitialization.DataInt@6fe1b4fb)">
+                  </a> <!-- DonateStatic(com.yp.datainitialization.DataInt@6fe1b4fb) -->
+                  <span class="method-name">DonateStatic</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@6fe1b4fb)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=//div[6]/div/div/ul/li}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.RequestDynamicDonation.requesttodonatedynamic(RequestDynamicDonation.java:141)
+	at com.yp.pagefactory.RequestStaticDonation.requeststaticdonate(RequestStaticDonation.java:32)
+	at com.yp.testscripts.YapyzalTestSuite.DonateStatic(YapyzalTestSuite.java:63)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Donatestatic)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(com.yp.datainitialization.DataInt@1c32386d)">
+                  </a> <!-- Login(com.yp.datainitialization.DataInt@1c32386d) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@1c32386d)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=/html/body/header/nav/div/div[2]/ul/li[5]/a}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.Login.accountlogin(Login.java:53)
+	at com.yp.testscripts.YapyzalTestSuite.Login(YapyzalTestSuite.java:37)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fbdeal(com.yp.datainitialization.DataInt@13d73fa)">
+                  </a> <!-- fbdeal(com.yp.datainitialization.DataInt@13d73fa) -->
+                  <span class="method-name">fbdeal</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@13d73fa)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div[1]/div/div[2]/div[1]/div/div/div/div/div[2]/ul/li[4]/a/div/span}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.FacebookCheckoutDeal.facebookdeal(FacebookCheckoutDeal.java:128)
+	at com.yp.testscripts.YapyzalTestSuite.fbdeal(YapyzalTestSuite.java:78)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FacebookCheckoutDeal)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fbdonate(com.yp.datainitialization.DataInt@5d5f10b2)">
+                  </a> <!-- fbdonate(com.yp.datainitialization.DataInt@5d5f10b2) -->
+                  <span class="method-name">fbdonate</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@5d5f10b2)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+*** Element info: {Using=xpath, value=//div[2]/div/a}
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.FacebookCheckoutDonate.facebookdonate(FacebookCheckoutDonate.java:124)
+	at com.yp.testscripts.YapyzalTestSuite.fbdonate(YapyzalTestSuite.java:86)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FacebookCheckoutDonate)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fblogin(com.yp.datainitialization.DataInt@1e0f9063)">
+                  </a> <!-- fblogin(com.yp.datainitialization.DataInt@1e0f9063) -->
+                  <span class="method-name">fblogin</span>
+                  <span class="parameters">(com.yp.datainitialization.DataInt@1e0f9063)</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-3JIP3OF&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\MANIKA~1\AppData\Local\Temp\scoped_dir5060_6370}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 337c2aac94fa8afdbf43745797e5df9a
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.yp.pagefactory.FbLogin.accountlogin(FbLogin.java:50)
+	at com.yp.testscripts.YapyzalTestSuite.fblogin(YapyzalTestSuite.java:71)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FbLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-YP_Automation-class-failed -->
+        </div> <!-- panel YP_Automation -->
+        <div panel-name="test-xml-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Yapyzal\YPTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;YP_Automation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.yp.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;YP_Automation&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yp.testscripts.YapyzalTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- YP_Automation --&gt;
+&lt;/suite&gt; &lt;!-- YP_Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for YP_Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">YP_Automation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for YP_Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for YP_Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_YP_Automation');
+function tableData_YP_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DonateStatic')
+data.setCell(0, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(0, 3, 17027);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DonateDynamic')
+data.setCell(1, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(1, 3, 14030);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Deal')
+data.setCell(2, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(2, 3, 10051);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Login')
+data.setCell(3, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(3, 3, 9141);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fbdeal')
+data.setCell(4, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(4, 3, 8021);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fbdonate')
+data.setCell(5, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(5, 3, 7024);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fblogin')
+data.setCell(6, 2, 'com.yp.testscripts.YapyzalTestSuite')
+data.setCell(6, 3, 5013);
+window.suiteTableData['YP_Automation']= { tableData: data, tableDiv: 'times-div-YP_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-YP_Automation">
+              </div> <!-- times-div-YP_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for YP_Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-YP_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yp.testscripts.YapyzalTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login(com.yp.datainitialization.DataInt@1c32386d)</span>
+                <span class="method-start">26542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Deal(com.yp.datainitialization.DataInt@35f26e72)</span>
+                <span class="method-start">38761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DonateDynamic(com.yp.datainitialization.DataInt@67304a40)</span>
+                <span class="method-start">51861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DonateStatic(com.yp.datainitialization.DataInt@6fe1b4fb)</span>
+                <span class="method-start">68938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fblogin(com.yp.datainitialization.DataInt@1e0f9063)</span>
+                <span class="method-start">88999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fbdeal(com.yp.datainitialization.DataInt@13d73fa)</span>
+                <span class="method-start">97046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fbdonate(com.yp.datainitialization.DataInt@5d5f10b2)</span>
+                <span class="method-start">108101 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
